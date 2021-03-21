@@ -1,0 +1,23 @@
+{
+  "name": "jovo-plugin-voicecms",
+  "version": "1.0.0",
+  "description": "Jovo Plugin for Voice CMS",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pialuna/jovo-plugin-voicecms.git"
+  },
+  "author": "Pia",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/pialuna/jovo-plugin-voicecms/issues"
+  },
+  "homepage": "https://github.com/pialuna/jovo-plugin-voicecms#readme",
+  "dependencies": {
+    "i18next": "^19.9.2",
+    "request": "^2.88.2"
+  }
+}
