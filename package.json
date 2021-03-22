@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/pialuna/jovo-plugin-voicecms.git"
   },
-  "author": "Pia",
+  "author": "pialuna",
   "license": "Apache 2.0",
   "bugs": {
     "url": "https://github.com/pialuna/jovo-plugin-voicecms/issues"

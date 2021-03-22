@@ -3,7 +3,7 @@
 The Jovo Plugin for Voice CMS, an open source content management system for voice apps.
 
 Voice CMS can be found here: https://github.com/pialuna/voice-cms
-![Voice CMS](./docs/voice-cms.png)
+![Voice CMS](https://raw.githubusercontent.com/pialuna/voice-cms/main/docs/voice-cms.png)
 
 
 ## Plugin installation
