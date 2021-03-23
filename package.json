@@ -1,6 +1,6 @@
 {
   "name": "jovo-plugin-voicecms",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Jovo Plugin for Voice CMS",
   "main": "src/index.js",
   "scripts": {
