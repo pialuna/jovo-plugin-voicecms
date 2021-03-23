@@ -28,17 +28,17 @@ class VoiceCMS {
 			// resources for i18n (works only for Collections, that have a 'key' column)
 			const i18nResources = this.parseI18nResourcesComplete(project);
 
-			handleRequest.app.$cms.I18Next.i18n = i18n
-				.init(
-					{
-						resources: i18nResources,
-						load: 'all',
-						returnObjects: true,
-						interpolation: {
-							escapeValue: false, // do not escape ssml tags
-						},
-					}
-				);
+			i18n.init(
+				{
+					resources: i18nResources,
+					load: 'all',
+					returnObjects: true,
+					interpolation: {
+						escapeValue: false, // do not escape ssml tags
+					},
+				}
+			);
+			handleRequest.app.$cms.I18Next = { i18n };
 
 			// put every collection (as an array of objects) into the jovo $cms object
 			for (const collection in resourcesAsObjArrays) {
