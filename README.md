@@ -26,7 +26,7 @@ app.use(
 
 ## Usage
 
-In your jovo app logic, you can now access a content item via its key, that is composed like this: `<CollectionName>.<key>.<ColumnName>`
+In your Jovo app logic, you can now access a content item via its key, that is composed like this: `<CollectionName>.<key>.<ColumnName>`
 
 ```javascript
 this.$speech.addAudio(this.t('Sound.intro.soundbank_url'));
@@ -36,5 +36,5 @@ this.$speech.addText(this.t('Responses.welcome.response'));
 this.ask(this.$speech);
 ```
 
-A sample jovo quiz game app, which uses the Voice CMS Plugin, can be found here:
+A sample Jovo quiz game app, which uses the Voice CMS Plugin, can be found here:
 https://github.com/pialuna/jovo-sample-app-voicecms
