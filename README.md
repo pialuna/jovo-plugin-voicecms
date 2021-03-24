@@ -11,7 +11,7 @@ Voice CMS can be found here: https://github.com/pialuna/voice-cms
 npm install --save jovo-plugin-voicecms
 ```
 
-In `src/app.js` in your jovo project:
+In `src/app.js` in your Jovo project:
 ```javascript
 const { VoiceCMS } = require('jovo-plugin-voicecms');
 ```
